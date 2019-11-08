@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/white"/>
+    <EditText
+        android:id="@+id/etEmailReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:hint="Email"/>
+    <EditText
+        android:id="@+id/etPassReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:hint="Password"/>
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:background="#8B4513"
+        android:text="Register"/>
+    <TextView
+        android:id="@+id/tvGoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah punya akun ?"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"/>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/ImgRegFb"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/fb"/>
+        <ImageView
+            android:id="@+id/ImgRegGoogle"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/google"/>
+    </LinearLayout>-->
+
+</LinearLayout>

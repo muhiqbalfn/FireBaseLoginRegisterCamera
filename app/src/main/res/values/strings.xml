@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageBlur.net</string>
+    <string name="facebook_app_id">453072325325568</string>
+    <string name="fb_login_protocol_scheme">fb453072325325568</string>
+</resources>
